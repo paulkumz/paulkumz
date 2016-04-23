@@ -1,0 +1,40 @@
+body,
+html{
+	min-height:100%;
+}
+body{
+background-image:url(../images/image.jpg);
+background-repeat:no-repeat;
+background-attachment: fixed;
+background-size:cover;	
+font-family: 'Raleway', sans-serif;
+}
+.navbar{
+background-color: rgba(255, 199, 82, 0.3); 
+color: rgba(255, 199, 82, 0.3);
+}
+.name{
+	text-align:center;
+	color:#e3632d;
+}
+.pad{
+  padding:10px auto;
+  padding-bottom:20px;
+  margin-top:30px;
+  padding-top:10px;
+ background-color: rgba(255, 255, 255, 0.8); 
+color: rgba(255, 255, 255, 0.8);
+  text-align:center;
+  color:#F68657;
+  height:270px;
+  width:250px;
+  
+  border-radius:6px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    }
+.col-lg-4.piece{
+  text-align:center;
+  padding-top:20px;
+  }
+ 
