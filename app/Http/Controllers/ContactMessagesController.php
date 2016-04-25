@@ -5,6 +5,8 @@ namespace Paulkumz\Http\Controllers;
 use Illuminate\Http\Request;
 use Paulkumz\ContactMessage;
 use Paulkumz\Http\Requests;
+use Paulkumz\Events\MessageSent;
+use Illuminate\Support\Facades\Event;
 
 class ContactMessagesController extends Controller
 {
@@ -27,6 +29,7 @@ class ContactMessagesController extends Controller
     	$message->subject = $request['title'];
     	$message->body = $request['message'];
     	$message->save();
+        Event::fire(new MessageSent($message));
     	return redirect()->route('mail.contact')->with(['success' => 'Message sent']);
     }
 }

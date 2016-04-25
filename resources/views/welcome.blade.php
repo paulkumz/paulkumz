@@ -8,13 +8,13 @@
            <p>A PHP AND FRONT END WEB DEVELOPER, LARAVEL ETHUSIAST AND INTERPRENEUR</p>
         </div>
     </div>
-    <div class="row">
+    <div class="row"> 
         <div class="col-md-10 col-md-offset-1 name">
            <p>l design from the future</p>
         </div>
     </div>
     <div class="row col-xs-12">
-    <div class=" col-lg-4 piece">
+    <div class=" col-md-4 piece">
       <div class="pad">
       <h4><i class="fa fa-btn fa-user"></i>FOUNDER OF EXHULT</h4>
       <hr>
@@ -24,7 +24,7 @@
       </div>
     </div>
 
-    <div class="col-lg-4 piece">
+    <div class="col-md-4 piece">
       <div class="pad">
       <h4><i class="fa fa-btn fa-tags"></i>PHP EXPERIENCE</h4>
       <hr>
@@ -37,7 +37,7 @@
 
     
 
-    <div class=" col-lg-4 piece">
+    <div class=" col-md-4 piece">
       <div class="pad">
       <h4><i class="fa fa-btn fa-send"></i>ROBOTICS</h4>
       <hr>
